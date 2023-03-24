@@ -1,13 +1,13 @@
 #**Selection sort methods**
-import SortingVisualiser.Sorting.SortingManager as sortingManager
-import SortingVisualiser.GuiManager.GUIManager as GUIManager
-import SortingVisualiser.ApplicationSettings.Settings as settings
-import SortingVisualiser.Services.InputChecker as inputChecker
-import SortingVisualiser.SortingVisualiserStartUp as sortingVisualiserStartUp
-import SortingVisualiser.StaticFiles.Colors as Colors
+import SortingAppProgram.Sorting.SortingManager as sortingManager
+import SortingAppProgram.GuiManager.GUIManager as GUIManager
+import SortingAppProgram.ApplicationSettings.Settings as settings
+import SortingAppProgram.Services.InputChecker as inputChecker
+import SortingAppProgram.SortingVisualiserStartUp as SortingAppProgramStartUp
+import SortingAppProgram.StaticFiles.Colors as Colors
 import pygame
-import SortingVisualiser.Buttons.ButtonFactory as buttonFactory
-import SortingVisualiser.Bars.BarManager as barManager
+import SortingAppProgram.Buttons.ButtonFactory as buttonFactory
+import SortingAppProgram.Bars.BarManager as barManager
 
 pygame.init()
 
@@ -35,7 +35,7 @@ def selectionSort(dis):
         #Swap the current smallest element with the current element
         barList[i], barList[jMin] = barList[jMin], barList[i]
     #completedSortSequence(barList)
-    sortingVisualiserStartUp.Start(dis)
+    SortingAppProgramStartUp.Start(dis)
 
 #Updates the bars to show the visual representation of the selection sort
 def updateSelectionSortBars(dis,barList, i, jMin, currentJ):

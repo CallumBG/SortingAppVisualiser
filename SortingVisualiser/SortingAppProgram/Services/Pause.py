@@ -1,7 +1,7 @@
 import pygame
-import SortingVisualiser.ApplicationSettings.Settings as settings
-import SortingVisualiser.Buttons.ButtonFactory as buttonFactory
-import SortingVisualiser.Services.InputChecker as inputChecker
+import SortingAppProgram.ApplicationSettings.Settings as settings
+import SortingAppProgram.Buttons.ButtonFactory as buttonFactory
+import SortingAppProgram.Services.InputChecker as inputChecker
 
 pygame.init()
 

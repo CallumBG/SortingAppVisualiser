@@ -1,7 +1,7 @@
 import random
 import pygame
-import SortingVisualiser.StaticFiles.Colors as Colors
-import SortingVisualiser.ApplicationSettings.Settings as settings
+import SortingAppProgram.StaticFiles.Colors as Colors
+import SortingAppProgram.ApplicationSettings.Settings as settings
 
 #Default number in case no variable passed in
 number = 50

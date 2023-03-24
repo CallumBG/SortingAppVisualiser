@@ -1,7 +1,7 @@
 import pygame
-import SortingVisualiser.StaticFiles.Fonts as Fonts
-import SortingVisualiser.StaticFiles.Colors as Colors
-import SortingVisualiser.ApplicationSettings.Settings as settings
+import SortingAppProgram.StaticFiles.Fonts as Fonts
+import SortingAppProgram.StaticFiles.Colors as Colors
+import SortingAppProgram.ApplicationSettings.Settings as settings
 
 
 #Creates the basic color and text of the main menu

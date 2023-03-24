@@ -1,11 +1,11 @@
 
-import SortingVisualiser.StaticFiles.Colors as Colors
-import SortingVisualiser.StaticFiles.Fonts as Fonts
+import SortingAppProgram.StaticFiles.Colors as Colors
+import SortingAppProgram.StaticFiles.Fonts as Fonts
 import pygame
-import SortingVisualiser.Bars.BarManager as barManager
-import SortingVisualiser.Sorting.SortingManager as sortingManager
-import SortingVisualiser.Services.Pause as pause
-import SortingVisualiser.SortingVisualiserStartUp as sortingVisualiserStartUp
+import SortingAppProgram.Bars.BarManager as barManager
+import SortingAppProgram.Sorting.SortingManager as sortingManager
+import SortingAppProgram.Services.Pause as pause
+import SortingAppProgram.SortingVisualiserStartUp as sortingVisualiserStartUp
 
 pygame.init()
 

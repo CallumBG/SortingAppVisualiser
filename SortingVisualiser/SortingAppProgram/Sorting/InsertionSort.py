@@ -1,14 +1,14 @@
 #**Insertion sort methods**
-import SortingVisualiser.Sorting.SortingManager as sortingManager
-import SortingVisualiser.GuiManager.GUIManager as GUIManager
-import SortingVisualiser.ApplicationSettings.Settings as settings
-import SortingVisualiser.Services.InputChecker as inputChecker
-import SortingVisualiser.SortingVisualiserStartUp as sortingVisualiserStartUp
-import SortingVisualiser.Sorting.SortingManager as sortingManager
-import SortingVisualiser.StaticFiles.Colors as Colors
+import SortingAppProgram.Sorting.SortingManager as sortingManager
+import SortingAppProgram.GuiManager.GUIManager as GUIManager
+import SortingAppProgram.ApplicationSettings.Settings as settings
+import SortingAppProgram.Services.InputChecker as inputChecker
+import SortingAppProgram.SortingVisualiserStartUp as SortingAppProgramStartUp
+import SortingAppProgram.Sorting.SortingManager as sortingManager
+import SortingAppProgram.StaticFiles.Colors as Colors
 import pygame
-import SortingVisualiser.Buttons.ButtonFactory as buttonFactory
-import SortingVisualiser.Bars.BarManager as barManager
+import SortingAppProgram.Buttons.ButtonFactory as buttonFactory
+import SortingAppProgram.Bars.BarManager as barManager
 
 pygame.init()
 
@@ -35,7 +35,7 @@ def insertionSort(dis,barList):
         barList[j + 1] = key
     GUIManager.createSortScreen(dis)
     sortingManager.completedSortSequence(dis,barList)
-    sortingVisualiserStartUp.Start(dis)
+    SortingAppProgramStartUp.Start(dis)
 
 #Updates the bars to show the visual representation of the insertion sort
 def updateInsertionSortBars(dis,barList, passedI, passedJ, key):

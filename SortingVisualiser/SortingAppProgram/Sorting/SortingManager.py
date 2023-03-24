@@ -1,10 +1,10 @@
-import SortingVisualiser.StaticFiles.Colors as Colors
-import SortingVisualiser.StaticFiles.Fonts as Fonts
-import SortingVisualiser.Bars.BarManager as barManager
-import SortingVisualiser.Sorting.BubbleSort as bubbleSort
-import SortingVisualiser.Sorting.SelectionSort as selectionSort
-import SortingVisualiser.Sorting.InsertionSort as insertionSort
-import SortingVisualiser.ApplicationSettings.Settings as settings
+import SortingAppProgram.StaticFiles.Colors as Colors
+import SortingAppProgram.StaticFiles.Fonts as Fonts
+import SortingAppProgram.Bars.BarManager as barManager
+import SortingAppProgram.Sorting.BubbleSort as bubbleSort
+import SortingAppProgram.Sorting.SelectionSort as selectionSort
+import SortingAppProgram.Sorting.InsertionSort as insertionSort
+import SortingAppProgram.ApplicationSettings.Settings as settings
 import pygame
 
 #Updates the sort method array with the selected sort method

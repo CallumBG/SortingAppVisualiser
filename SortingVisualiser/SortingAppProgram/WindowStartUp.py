@@ -1,6 +1,6 @@
 import pygame
-import SortingVisualiser.SortingVisualiserStartUp as SortingVisualiserStartUp
-import SortingVisualiser.ApplicationSettings.Settings as settings
+import SortingAppProgram.SortingVisualiserStartUp as SortingVisualiserStartUp
+import SortingAppProgram.ApplicationSettings.Settings as settings
 
 #Initialises the pygame module
 pygame.init()

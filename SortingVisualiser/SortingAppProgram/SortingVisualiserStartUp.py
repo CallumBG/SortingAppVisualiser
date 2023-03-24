@@ -1,12 +1,12 @@
 import pygame
-import SortingVisualiser.Buttons.ButtonFactory as buttonFactory
-import SortingVisualiser.StaticFiles.Colors as Colors
-import SortingVisualiser.Buttons.ButtonManager as buttonManager
-import SortingVisualiser.Services.InputChecker as inputChecker
-import SortingVisualiser.GuiManager.GUIManager as GUIManager
-import SortingVisualiser.Sorting.SortingManager as sortingManager
-import SortingVisualiser.ApplicationSettings.Settings as settings
-import SortingVisualiser.Bars.BarManager as barManager
+import SortingAppProgram.Buttons.ButtonFactory as buttonFactory
+import SortingAppProgram.StaticFiles.Colors as Colors
+import SortingAppProgram.Buttons.ButtonManager as buttonManager
+import SortingAppProgram.Services.InputChecker as inputChecker
+import SortingAppProgram.GuiManager.GUIManager as GUIManager
+import SortingAppProgram.Sorting.SortingManager as sortingManager
+import SortingAppProgram.ApplicationSettings.Settings as settings
+import SortingAppProgram.Bars.BarManager as barManager
 
 
 buttonList = []

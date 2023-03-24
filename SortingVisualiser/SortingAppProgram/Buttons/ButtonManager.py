@@ -1,5 +1,5 @@
 import pygame
-import SortingVisualiser.StaticFiles.Colors as Colors
+import SortingAppProgram.StaticFiles.Colors as Colors
 
 #Highlights each selected buttton green
 def highlightButtons(dis, numberSelected, sortSelected):
