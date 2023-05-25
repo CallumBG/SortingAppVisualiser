@@ -7,12 +7,13 @@ You then choose your method of sorting that you want to see, for these examples 
 
 The first example is bubble sort:
 
-https://user-images.githubusercontent.com/67014866/173253761-e94dda60-2943-4016-a961-29bf37f528e0.mp4
+https://github.com/CallumBG/SortingAppVisualiser/assets/67014866/ee1627cf-927b-4291-ba3d-584ce9011d94
 
 The second is selection sort:
 
-https://user-images.githubusercontent.com/67014866/173253767-d691fd79-47ce-44ef-8744-334d407bda04.mp4
+https://github.com/CallumBG/SortingAppVisualiser/assets/67014866/a68c834d-f7ff-4e8f-82c8-d37465ae253e
 
 The third is insertion sort:
 
-https://user-images.githubusercontent.com/67014866/173253769-a0495de0-fb8a-4826-a0e5-40c2f357492f.mp4
+https://github.com/CallumBG/SortingAppVisualiser/assets/67014866/5bb15373-6745-44df-9f42-31b2090a2071
+
